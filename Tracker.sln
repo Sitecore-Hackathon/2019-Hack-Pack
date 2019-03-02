@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2008
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tracker.DataService", "Feature\Tracker.DataService\Tracker.DataService.csproj", "{8B27A0A4-5061-439A-A0BB-1FE5CD8D8E30}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tracker.DataService", "src\Feature\Tracker.DataService\Tracker.DataService.csproj", "{8B27A0A4-5061-439A-A0BB-1FE5CD8D8E30}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tracker", "Project\Tracker\Tracker.csproj", "{2A3628D1-C508-4E5A-AD6A-A0A9A6DE4CB0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tracker", "src\Project\Tracker\Tracker.csproj", "{2A3628D1-C508-4E5A-AD6A-A0A9A6DE4CB0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tracker.SitecoreExtensions", "Feature\Tracker.SitecoreExtensions\Tracker.SitecoreExtensions.csproj", "{B3541833-E4E3-4297-AFD3-BD06B5E45E15}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tracker.SitecoreExtensions", "src\Feature\Tracker.SitecoreExtensions\Tracker.SitecoreExtensions.csproj", "{B3541833-E4E3-4297-AFD3-BD06B5E45E15}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tracker.ProcessingTask", "Feature\Tracker.ProcessingTask\Tracker.ProcessingTask.csproj", "{3722E743-C7F9-45BA-9A8D-F1CCA946723F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tracker.ProcessingTask", "src\Feature\Tracker.ProcessingTask\Tracker.ProcessingTask.csproj", "{3722E743-C7F9-45BA-9A8D-F1CCA946723F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{9B2A1585-9AB6-40FD-A96D-C7BADE581C4A}"
 EndProject
