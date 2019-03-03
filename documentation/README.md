@@ -65,8 +65,7 @@
 * To avoid duplicate buttons between the two chunks: if a button listed in the Everyone chunk is added to a CA's Me chunk, then the button is removed from the Everyone chunk of that CA's account. The button will still display in the Everyone chunk of other CA accounts if the button is not part of their top six frequently used buttons
 * The aggregation agent is configured to run every 10 seconds, so it will customize your ribbon experience during your session
     
-Please watch the video for additional details: _**insert youtube link**_
-
+Please watch the video for additional details: ![2019 Sitecore Hackathon - Popular Tools Customized Ribbon Module: DEMO](https://www.youtube.com/watch?v=xa4Ptajcr6M&feature=youtu.be)
 
 
 ## Value
