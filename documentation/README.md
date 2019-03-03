@@ -41,11 +41,11 @@
 ### Active State
   
   Each chunk -- Me and Everyone -- can contain up to six buttons. The six buttons that display in each chunk are based on the criteria noted in the Summary section above. Selecting a button in any ribbon of the Editor will refresh the page, allowing each chunk's button set to be updated during a CA's active session. If less than six buttons are listed in the Me chunk, then a button can be added by selecting it at least five times. Shortcut key usage does not count. Example:
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Active State](https://github.com/alivezey/practice/raw/master/images/Active_State-HackPack_2019SCHackathon.png?raw=true "Active State HackPack 2019SCHackathon")
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Active State](https://github.com/Sitecore-Hackathon/2019-Hack-Pack/blob/master/documentation/images/Active_State-HackPack_2019SCHackathon.png "Active State HackPack 2019SCHackathon")
    
 ### Default State
   The default ribbon that displays in the Content Editor only includes the Everyone chunk. The Me chunk will start to populate once the CA begins to interact with any button(s) in any of its ribbons. Example:
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Default State](https://github.com/alivezey/practice/raw/master/images/Default_State-HackPack_2019SCHackathon.png?raw=true "Default State HackPack 2019SCHackathon")
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Default State](https://github.com/Sitecore-Hackathon/2019-Hack-Pack/blob/master/documentation/images/Default_State-HackPack_2019SCHackathon.png "Default State HackPack 2019SCHackathon")
   
 ### Fallback State
    This alternative Popular Tools ribbon version displays for CAs in the Content Editor if both button sets are empty; for example, if the CA logging in is the very first user to ever log into the Sitecore instance. This ribbon has two default buttons:
@@ -56,17 +56,16 @@
    
  Example:
    
- ![Fallback State](https://github.com/alivezey/practice/raw/master/images/Fallback_State-HackPack_2019SCHackathon.png?raw=true "Fallback State HackPack 2019SCHackathon")
+ ![Fallback State](https://github.com/Sitecore-Hackathon/2019-Hack-Pack/blob/master/documentation/images/Fallback_State-HackPack_2019SCHackathon.png "Fallback State HackPack 2019SCHackathon")
 
 ### Notes: 
 * The restrictions behavior of ribbon buttons is inherited from the out-of-the-box Sitecore settings (1). If the CA does not have the necessary permissions (2) then the button is disabled. Example:
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Disabled Button States](https://github.com/alivezey/practice/raw/master/images/Disabled_Buttons-HackPack_2019SCHackathon.png?raw=true "Disabled Button States HackPack 2019SCHackathon")
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Disabled Button States](https://github.com/Sitecore-Hackathon/2019-Hack-Pack/blob/master/documentation/images/Disabled_Buttons-HackPack_2019SCHackathon.png "Disabled Button States HackPack 2019SCHackathon")
 * The Save button is filtered out of both chunks -- including the fallback state -- because it displays in all ribbons by default
 * To avoid duplicate buttons between the two chunks: if a button listed in the Everyone chunk is added to a CA's Me chunk, then the button is removed from the Everyone chunk of that CA's account. The button will still display in the Everyone chunk of other CA accounts if the button is not part of their top six frequently used buttons
 * The aggregation agent is configured to run every 10 seconds, so it will customize your ribbon experience during your session
     
-Please watch the video for additional details: ![2019 Sitecore Hackathon - Popular Tools Customized Ribbon Module: DEMO](https://www.youtube.com/watch?v=xa4Ptajcr6M&feature=youtu.be)
-
+Please watch the video for additional details: ![2019 Sitecore Hackathon - Popular Tools Customized Ribbon Module: DEMO](https://www.youtube.com/watch?v=vDX-kE7D_k4 "")
 
 ## Value
 
